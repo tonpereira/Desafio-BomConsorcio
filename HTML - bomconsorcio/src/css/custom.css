@@ -131,6 +131,14 @@
     font-size: 33px;
 }
 
+.iconCards img{
+    transform: translateY(-50%) rotate(-45deg);
+    top: 50%;
+    position: relative;
+    width: 31px !important;
+    margin: 0 auto;
+}
+
 .bg-roxoGradient{
     background: rgb(175,25,249);
     background: linear-gradient(0deg, rgba(119,82,245,1) 0%, rgba(175,25,249,1) 100%);
