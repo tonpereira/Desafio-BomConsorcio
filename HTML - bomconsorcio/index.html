@@ -1,0 +1,314 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BomConsórcio - Desafio front-end</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="src/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="src/img/favicon/site.webmanifest">
+
+        <script src="https://kit.fontawesome.com/d4bdf98ee2.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/owlcarousel/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="src/owlcarousel/css/owl.theme.default.min.css">
+        
+
+        <link rel="stylesheet" href="src/css/custom.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-expand-xs shadow-sm navbar-light bg-white navClass">
+            <div class="container">
+                    <div class="logo col-auto">
+                        <a class="navbar-brand" href="#">
+                            <img class="d-none d-sm-block" src="src/img/logo.png" alt="BomConsórcio">
+                            <img class="d-block d-sm-none d-md-none d-lg-none d-xl-none" src="src/img/icon_logo.png" alt="BomConsórcio">
+                        </a>
+                    </div>
+                    <div class="col me-lg-2 d-none d-lg-block">
+                        <div class="collapse navbar-collapse float-end" id="navbarNav">
+                            <ul class="navbar-nav roboto-14-500 preto-menu color-comprar">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Quem Somos
+                                      </a>
+                                      <ul class="dropdown-menu roboto-14-500 p-2" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item ps-0" href="#">Bom Consórcio</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Perguntas Frequentes</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Compromisso com Impacto</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Guia do Consórcio</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Blog</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="#">Segurança</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Seja nosso Parceiro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Minha Conta</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col text-end">
+                        <button type="button" id="IdbtnComprar" class="btn btnTopo border-2 nunito-20-semibold border-comprar color-comprar btn-outline rounded-pill">Comprar consórcio</button>
+                        <button type="button" id="IdbtnVender" class="btn btnTopo border-2 nunito-20-semibold border-vender color-vender btn-outline rounded-pill">Vender consórcio</button>
+                    </div>
+                    <div class="col-auto col-xs-auto">
+                        <button class="navbar-toggler ms-2 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="col-12 d-block d-lg-none d-xl-none">
+                        <div class="collapse navbar-collapse float-start" id="navbarNav">
+                            <ul class="navbar-nav roboto-14-500 preto-menu color-comprar">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Quem Somos
+                                      </a>
+                                      <ul class="dropdown-menu roboto-14-500 p-2" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item ps-0" href="#">Bom Consórcio</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Perguntas Frequentes</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Compromisso com Impacto</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Guia do Consórcio</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item ps-0" href="#">Blog</a></li>
+                                      </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="#">Segurança</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Seja nosso Parceiro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Minha Conta</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row my-md-4">
+                <div class="loginconta col-md-6 col-sm-12 col-xs-12">
+                    <h1 class="">Já sou <span>cliente</span></h1>
+                    <p class="subTitle">Que legal! Entre com seus dados para acessar agora mesmo a sua conta.</p>
+                    <form>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">E-mail</label>
+                          </div>
+                          <div class="form-floating inputsenha mb-3">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+                                <label for="floatingPassword">Senha</label>
+                                <span class="input-group-text ptxt border-0">
+                                    <i class="far fa-eye-slash" id="togglePassword" 
+                                   style="cursor: pointer"></i>
+                                </span>
+                          </div>
+                          <p class="esqSenha"><a href="#" >Esqueceu a senha?</a></p>
+                          <button type="button" class="btn btnAcessarConta nunito-20-semibold text-white rounded-pill">Acessar minha conta</button>
+                    </form>
+                </div>
+                <div class="criarconta col-md-6 col-sm-12 col-xs-12">
+                    <h1 class="">Abra agora <span>a sua conta</span></h1>
+                    <p class="subTitle">
+                        Venha conosco e em poucos passos você poderá comprar e vender consórcios.
+                    </p>
+                    <button type="button" class="btn my-3 btnNovaConta nunito-20-semibold text-white rounded-pill">Criar nova conta</button>
+                    <!-- itens -->
+                    <div class="row">
+                    <div class="owl-carousel owl-theme carouselCards mb-lg-0 mb-md-0 mb-4">
+                        <div class="item">
+                            <div class="card border-0 text-center">
+                                <div class="iconCards bg-roxoGradient">
+                                    <i class="fa-regular fa-file"></i>
+                                </div>
+                                <div class="detalhesCards">
+                                    <p class="tituloCard mb-1">Simplicidade</p>
+                                    <p class="textoCard">Confira a proposta e anexe os documentos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 text-center">
+                                <div class="iconCards bg-verdeGradient">
+                                    <i class="fa-solid fa-desktop"></i>
+                                </div>
+                                <div class="detalhesCards">
+                                    <p class="tituloCard mb-1">Comodidade</p>
+                                    <p class="textoCard">Assine o contrato online pelo nosso site</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 text-center">
+                                <div class="iconCards bg-salmaoGradient">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="detalhesCards">
+                                    <p class="tituloCard mb-1">Felicidade</p>
+                                    <p class="textoCard">Aguarde o recebimento do seu dinheiro</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- itens -->
+                </div>
+            </div>
+        </div>
+        <footer class="py-md-4 py-sm-4 py-4 text-white">
+            <!-- footer para desktop -->
+            <div class="container d-none d-sm-block">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#"><img src="src/img/logo_branca.png" alt="BomConsórcio"></a>
+                        <p class="textFooterGotham mt-2">Nosso propósito: Conectar pessoas e oportunidades no mercado de consórcios.</p>
+                        <img src="src/img/logo_abac.png" class="img-fluid mb-4 " alt="ABAC certificada">
+                        <img class="img-fluid" src="src/img/Logo_empresa_certificada.png" alt="empresa certificada">
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3 class="tituloFooter">A empresa</h3>
+                        <ul class="listaEmpresafooter">
+                            <li>Quem Somos</li>
+                            <li>Segurança</li>
+                            <li>Seja nosso Parceiro</li>
+                            <li>Perguntas Frequentes</li>
+                            <li>Blog</li>
+                            <li>Guia do Consórcio</li>
+                            <li>Compromisso com impacto</li>
+                            <li>Termos de Uso</li>
+                            <li>Trabalhe Conosco</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3 class="tituloFooter">Produtos</h3>
+                        <ul class="listaEmpresafooter mb-4">
+                            <li>Minha Conta</li>
+                            <li>Vender Consórcio</li>
+                            <li>Comprar Consórcio</li>
+                        </ul>
+                        <h3 class="tituloFooter">Baixe o App</h3>
+                        <img class="img-fluid mb-3" src="src/img/bt-app-store.png" alt="Disponível AppStore">
+                        <img class="img-fluid" src="src/img/bt-google-play.png" alt="Disponível GooglePlay">
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3 class="tituloFooter">Canais de atendimento</h3>
+                        <ul class="listaEmpresafooter mb-4">
+                            <li class="mb-3">4007-2647 <br />
+                                (capitais e regiões metropolitanas)</li>
+                            <li>0800-005-3001 <br />
+                                (outras localidades)</li>
+                        </ul>
+                        <img class="img-fluid me-2" src="src/img/A3FinTechs.png" alt="A3FinTechs">
+                        <img class="img-fluid" src="src/img/SiteProtegido.png" alt="Site Protegido">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- footer para mobile -->
+            <div class="container d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                <a href="#"><img src="src/img/logo_branca.png" alt="BomConsórcio"></a>
+                <p class="textFooterGotham mt-2">
+                    Nosso propósito: Conectar pessoas e oportunidades no mercado de consórcios.
+                </p>
+                <button type="button" class="btn btnFaleConosco nunito-20-semibold bg-white rounded-pill">Fale Conosco</button>
+                <div class="row text-center iconsFooter py-4">
+                    <div class="col">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <h3 class="tituloFooter">Baixe nosso aplicativo</h3>
+                <img class="" src="src/img/bt-app-store.png" alt="Disponível AppStore">
+                <img src="src/img/bt-google-play.png" alt="Disponível GooglePlay">
+                    <div class="row pt-4 pb-0">
+                        <div class="owl-carousel owl-theme carouselfooter">
+                            <div class="item">
+                                <img src="src/img/logo-b-footer.png" alt="Empresa certificada">
+                            </div>
+                            <div class="item">
+                                <img src="src/img/logo-abac-footer.png" alt="ABAC - Empresa Associada">
+                            </div>
+                            <div class="item">
+                                <img src="src/img/a3fintechs-footer.png" alt="A3FinTechs">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="src/img/SiteProtegido.png" alt="Site Protegido">
+                            </div>
+                        </div>
+                        <!-- <div class="col">
+                            <img src="src/img/logo-b-footer.png" alt="Empresa certificada">
+                        </div>
+                        <div class="col">
+                            <img src="src/img/logo-abac-footer.png" alt="ABAC - Empresa Associada">
+                        </div>
+                        <div class="col">
+                            <img src="src/img/a3fintechs-footer.png" alt="A3FinTechs">
+                        </div> -->
+                    </div>
+            </div>
+            <hr class="my-3"/>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                        <p class="textEndereco mb-0">
+                            Av. Tancredo Neves, 1283, Sl. 502 | Salvador – BA. CEP. 41.820-021 <br />
+                            Rua.Ministro Jesuino Cardoso, 633, 8º andar | Vila Olímpia – SP. CEP. 04.544-051
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 iconsFooter">
+                        <div class="row text-center">
+                            <div class="col">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="src/bootstrap/js/bootstrap.min.js"></script>
+        <script src="src/js/jquery-3.6.0.min.js"></script>
+        <script src="src/owlcarousel/js/owl.carousel.min.js"></script>
+
+        <script src="src/js/custom.js"></script>
+    </body>
+</html>

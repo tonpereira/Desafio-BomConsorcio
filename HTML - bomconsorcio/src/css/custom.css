@@ -1,0 +1,363 @@
+/*Roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Nunito*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*gotham*/
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+/*fonts*/
+.roboto-14-500, .roboto-14-500 a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.nunito-20-semibold, .nunito-20-semibold a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.criarconta h1, .loginconta h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 45px;
+    color: #575757;
+    font-weight: 800;
+}
+
+.criarconta h1 span{
+    color: #37B9C5;
+}
+
+.criarconta p.subTitle, .loginconta p.subTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #8D8D8E;
+}
+
+.loginconta h1 span{
+    color: #B526F7;
+}
+
+/*dropdown menu hover*/
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	/* .navbar .nav-item:hover .nav-link{   } */
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+/*cores*/
+
+.color-comprar, .color-comprar:hover{
+    color: #00B1A8;
+}
+
+.border-comprar{
+    border-color: #00B1A8;
+}
+
+.bg-comprar{
+    background-color: #00B1A8;
+}
+
+.color-vender, .color-vender:hover{
+    color: #B526F7;
+}
+
+.border-vender{
+    border-color: #B526F7;
+}
+
+.bg-vender{
+    background-color: #B526F7;
+}
+
+.preto-menu, .preto-menu a, .preto-menu li.nav-item a.nav-link{
+    color: #0A0A0A;
+}
+
+.preto-menu a:hover{
+    color: #00B1A8;
+}
+
+/* .navClass{
+    height: 95px;
+} */
+
+.btnTopo{
+    padding: 6px 21px;
+}
+
+.btnNovaConta{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 13px 64px;
+    background-color: #29CBD4;
+}
+
+.btnAcessarConta{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 13px 40px;
+    background-color: #B526F7;
+}
+
+.imgCardCriarCont{
+    width: 84px;
+    margin: 0 auto;
+}
+
+.iconCards{
+    width: 71px;
+    height: 71px;
+    transform: rotate(45deg);
+    border-radius: 17px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.iconCards i {
+    color: #fff;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%) rotate(-45deg);
+    font-size: 33px;
+}
+
+.bg-roxoGradient{
+    background: rgb(175,25,249);
+    background: linear-gradient(0deg, rgba(119,82,245,1) 0%, rgba(175,25,249,1) 100%);
+}
+
+.bg-verdeGradient{
+    background: rgb(45,141,211);
+    background: linear-gradient(0deg, rgba(96,208,208,1) 0%,rgba(45,141,211,1) 100%);  
+}
+
+.bg-salmaoGradient{
+    background: rgb(232,149,97);
+    background: linear-gradient(0deg, rgba(232,149,97,1) 0%, rgba(240,60,157,1) 100%);
+}
+
+.detalhesCards{
+    margin-top: 30px;
+}
+
+.detalhesCards .tituloCard{
+    font-family: 'Nunito', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #575757;
+}
+
+.detalhesCards .textoCard{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8D8D8E;
+}
+
+.ptxt {
+    color:#D5D5D8;
+    float: right !important;
+    font-size: 15px !important;
+    left: auto !important;
+    background: transparent !important;
+    position: absolute;
+    cursor: pointer !important;
+    top: 30% !important;
+    right: 10px;
+}
+
+#floatingInput{
+    border-radius: 7px 7px 0 0 ;
+    font-family: 'Roboto', sans-serif;
+    color: #575757;
+    font-size: 20px;
+}
+
+#floatingPassword{
+    border-radius: 0 0 7px 7px ;
+    font-family: 'Roboto', sans-serif;
+    color: #575757;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+    border-left: 4px solid #B526F7;
+}
+
+.esqSenha{
+    text-align: left;
+}
+
+.esqSenha a{
+    color: #8D8D8E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer{
+    background: rgb(127,105,224);
+    background: linear-gradient(45deg, rgba(127,105,224,1) 0%, rgba(158,105,224,1) 100%);
+}
+
+.textFooterGotham{
+    font-family: 'Gotham', sans-serif;
+    font-size: 17px;
+}
+
+.tituloFooter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+
+.listaEmpresafooter{
+    padding: 0;
+}
+
+.listaEmpresafooter li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.textEndereco{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.iconsFooter i{
+    font-size: 23px;
+    position: relative;
+    top: 50%;
+}
+
+.btnFaleConosco{
+    color: #9369E0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 11px 36px;
+    margin: 0 auto;
+}
+
+.carouselCards .owl-dots .owl-dot span{
+    background: #E9E8EB !important;
+    width: 10px !important;
+    height: 5px !important;
+}
+
+.carouselCards .owl-dots .owl-dot.active span{
+    background: #8496E5 !important;
+    width: 14px !important;
+    height: 5px !important;
+}
+
+.carouselfooter .owl-dots .owl-dot span{
+    background: #B598FC !important;
+    width: 10px !important;
+    height: 5px !important;
+}
+
+.carouselfooter .owl-dots .owl-dot.active span{
+    background: #FFFFFF !important;
+    width: 14px !important;
+    height: 5px !important;
+}
+
+.owl-carousel.carouselfooter .owl-item img{
+    width: auto !important;
+    margin: 0 auto;
+}
+
+/* .imgfooterad{
+} */
+
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+
+/* carousel items */
+/* ate SM */
+@media (max-width: 575.98px) {
+    #IdbtnVender{
+        margin-right: 10px;
+    }
+    .criarconta h1, .loginconta h1{
+        font-size: 25px;
+    }
+    .criarconta p.subTitle, .loginconta p.subTitle{
+        font-size: 16px;
+    }
+
+    .esqSenha{
+        text-align: right;
+    }
+
+    .esqSenha a{
+        font-size: 14px;
+    }
+
+    .btnAcessarConta, .btnNovaConta{
+        width: 100%;
+        font-size: 20px;
+    }
+    .textEndereco{
+        font-size: 12px;
+    }
+}
+
+/* ate MD */
+@media (max-width: 767.98px) {
+    #IdbtnVender{
+        margin-right: 5px;
+    }
+    .textEndereco{
+        font-size: 12px;
+    }
+}
+
+/* ate LG */
+@media (max-width: 991.98px) {
+    #IdbtnVender{
+        margin-right: 4px;
+    }
+    .textEndereco{
+        font-size: 12px;
+    }
+}
