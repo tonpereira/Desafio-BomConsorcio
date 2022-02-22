@@ -246,6 +246,15 @@ footer{
     
 }
 
+.listaEmpresafooter a{
+    text-decoration: none;
+	color: #fff;
+}
+
+.listaEmpresafooter a:hover{
+    text-decoration: underline;
+}
+
 .textEndereco{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
