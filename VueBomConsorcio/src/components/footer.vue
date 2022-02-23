@@ -71,13 +71,17 @@
       <div class="iconsFooter py-4">
         <socialicons />
       </div>
-      <h3 class="tituloFooter">Baixe nosso aplicativo</h3>
+      <h3 class="tituloFooter q-mb-xs">Baixe nosso aplicativo</h3>
       <img
-        class="q-mr-sm"
+        class="q-mt-sm btnappstore"
         src="img/bt-app-store.png"
         alt="Disponível AppStore"
       />
-      <img src="img/bt-google-play.png" alt="Disponível GooglePlay" />
+      <img
+        class="q-mt-sm"
+        src="img/bt-google-play.png"
+        alt="Disponível GooglePlay"
+      />
       <div class="row pt-4 pb-0">
         <carouselfooter />
       </div>

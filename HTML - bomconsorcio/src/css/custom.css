@@ -330,6 +330,31 @@ footer{
 
 
 /* carousel items */
+
+
+
+
+
+/* ate LG */
+@media (max-width: 991.98px) {
+    #IdbtnVender{
+        margin-right: 4px;
+    }
+    .textEndereco{
+        font-size: 12px;
+    }
+}
+
+/* ate MD */
+@media (max-width: 767.98px) {
+    #IdbtnVender{
+        margin-right: 5px;
+    }
+    .textEndereco{
+        font-size: 12px;
+    }
+}
+
 /* ate SM */
 @media (max-width: 575.98px) {
     #IdbtnVender{
@@ -357,24 +382,14 @@ footer{
     .textEndereco{
         font-size: 12px;
     }
+	
+	.btnappstore{
+		margin-bottom: 0px;
+	}
 }
 
-/* ate MD */
-@media (max-width: 767.98px) {
-    #IdbtnVender{
-        margin-right: 5px;
-    }
-    .textEndereco{
-        font-size: 12px;
-    }
-}
-
-/* ate LG */
-@media (max-width: 991.98px) {
-    #IdbtnVender{
-        margin-right: 4px;
-    }
-    .textEndereco{
-        font-size: 12px;
-    }
+@media (max-width: 376px) {
+	.btnappstore{
+		margin-bottom: 8px;
+	}
 }

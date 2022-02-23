@@ -5,9 +5,9 @@
     <div class="container">
       <div class="logo col-auto">
         <a class="navbar-brand" href="#">
-          <img class="gt-xs inline" src="img/logo.png" alt="BomConsórcio" />
+          <img class="gt-sm inline" src="img/logo.png" alt="BomConsórcio" />
           <img
-            class="lt-sm inline"
+            class="lt-md inline"
             src="img/icon_logo.png"
             alt="BomConsórcio"
           />

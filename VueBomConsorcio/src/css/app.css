@@ -245,7 +245,6 @@ footer{
 .tituloFooter{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    margin-bottom: 19px;
 }
 
 .listaEmpresafooter{
@@ -322,6 +321,27 @@ footer{
 
 
 /* medium and up screens */
+
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+/* carousel items */
+
+
+
+/* ate LG */
+@media (max-width: 991.98px) {
+    #IdbtnVender{
+        margin-right: 4px;
+    }
+    .textEndereco{
+        font-size: 12px;
+    }
+}
+
 @media (min-width: 768px) {
     
     .carousel-inner .carousel-item-end.active,
@@ -335,14 +355,17 @@ footer{
     }
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-  transform: translateX(0);
+@media (max-width: 767.98px) {
+    #IdbtnVender{
+        margin-right: 5px;
+    }
+    .textEndereco{
+        font-size: 12px;
+    }
 }
 
-
-/* carousel items */
 /* ate SM */
+
 @media (max-width: 575.98px) {
     #IdbtnVender{
         margin-right: 10px;
@@ -373,24 +396,13 @@ footer{
         font-size: 12px;
         text-align: center;
     }
-}
-
-/* ate MD */
-@media (max-width: 767.98px) {
-    #IdbtnVender{
-        margin-right: 5px;
-    }
-    .textEndereco{
-        font-size: 12px;
+    .btnappstore{
+        margin-right: 8px;
     }
 }
 
-/* ate LG */
-@media (max-width: 991.98px) {
-    #IdbtnVender{
-        margin-right: 4px;
-    }
-    .textEndereco{
-        font-size: 12px;
+@media (max-width: 376px) {
+    .btnappstore{
+        margin-right: 0px;
     }
 }
